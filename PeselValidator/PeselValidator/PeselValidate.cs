@@ -15,7 +15,7 @@ namespace PeselValidator {
         private int monthOfBirth;
         private int yearOfBirth;
 
-        private byte[] reasonInvalidTab = { 1, 2, 3, 4 };
+        private readonly byte[] reasonInvalidTab = { 1, 2, 3, 4 };
 
 
         public Pesel ValidatePesel(Pesel inputPesel) {

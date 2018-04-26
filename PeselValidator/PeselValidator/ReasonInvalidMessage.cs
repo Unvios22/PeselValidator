@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PeselValidator {
     class ReasonInvalidMessage {
-        public static String[] ReasonInvalidMessageTab = {  //indexes correspond with value of "reasonInvalid" field in Pesel Class
+        public static readonly String[] ReasonInvalidMessageTab = {  //indexes correspond with value of "reasonInvalid" field in Pesel Class
         "Pesel is valid",
         "Pesel length is different than 11",
         "Pesel doesn't have only numbers",

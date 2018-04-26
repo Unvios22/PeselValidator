@@ -10,8 +10,8 @@ namespace PeselValidator {
             PeselValidate validator = new PeselValidate();
 
             List<Pesel> list = new List<Pesel> {
-                new Pesel("ABCABCABCAB"),   //has chars
-                new Pesel("9673727"),       //improper length
+                new Pesel("ABCABCABCAB"),   // has chars
+                new Pesel("9673727"),       // improper length
                 new Pesel("44051401458"),   // valid
                 new Pesel("98375669371")    // wrong control number
             };
