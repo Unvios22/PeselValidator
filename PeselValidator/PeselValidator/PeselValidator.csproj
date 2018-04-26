@@ -43,9 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pesel.cs" />
+    <Compile Include="PeselValidate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidatePesel.cs" />
+    <Compile Include="ReasonInvalidMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

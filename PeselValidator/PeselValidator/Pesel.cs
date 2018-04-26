@@ -8,21 +8,35 @@ namespace PeselValidator
 {
     class Pesel
     {
-        private String pesel;
-        private bool valid;
+        private string peselString;
+        private bool isValid;
         private DateTime birthDate;
         private char sex;
+        private byte reasonInvalid;
 
-        Pesel() {
-
+        public Pesel(string input) { 
+            PeselString = input;
         }
 
-
-
-
+        public string PeselString {
+            get => peselString;
+            set => peselString = value;
+        }
+        public bool IsValid {
+            get => isValid;
+            set => isValid = value;
+        }
+        public DateTime BirthDate {
+            get => birthDate;
+            set => birthDate = value;
+        }
+        public char Sex {
+            get => sex;
+            set => sex = value;
+        }
+        public byte ReasonInvalid {
+            get => reasonInvalid;
+            set => reasonInvalid = value;
+        }
     }
-
-    
-
-
 }
